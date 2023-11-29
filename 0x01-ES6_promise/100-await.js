@@ -10,6 +10,5 @@ export default async function asyncUploadUser() {
   } catch (err) {
     response_obj = { photo: null, user: null };
   }
-  
   return response_obj;
 }
