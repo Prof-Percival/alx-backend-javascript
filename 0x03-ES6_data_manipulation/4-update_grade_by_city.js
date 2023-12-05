@@ -14,10 +14,8 @@
  * @returns {{id: Number, firstName: String, location: String}[]}
  */
 export default function updateStudentGradeByCity(students, city, newGrades) {
-  
   if (students instanceof Array) {
-    const defaultGrade = { grade: 'N/A' };
-    
+    const defaultGrade = { grade: 'N/A' };    
     return students
       .filter((student) => student.location === city)
       .map((student) => ({
