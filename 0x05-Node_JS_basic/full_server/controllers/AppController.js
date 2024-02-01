@@ -1,6 +1,6 @@
 /**
  * Contains the miscellaneous route handlers.
- * @author Bezaleel Olakunori <https://github.com/B3zaleel>
+ * @author Prof. Percival <https://github.com/Prof-Percival>
  */
 class AppController {
   static getHomepage(request, response) {
